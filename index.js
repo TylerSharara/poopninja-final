@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const alert = require('alert');
 const app = express();
 require('dotenv').config();
 
@@ -34,15 +33,13 @@ app.post('/api/form', (req, res) => {
             subject: req.body.name,
             text: 'Testing',
             html: htmlEmail
-        }
+        };
 
         transporter.sendMail(mailOptions, (err, data) => {
             if(err){
-                alert('Oh no! Something went wrong. Try again later or contact us via email: poopninjaLLC@gmail.com', 'cscript');
                 return console.log(err);
             }
 
-            alert('Awesome! We will contact you ASAP!', 'cscript');
             console.log('Message sent: %s', info.message);
             console.log('Message URL: %s', nodemailer.getTestMessageUrl(info));
         })
