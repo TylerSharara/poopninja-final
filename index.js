@@ -4,7 +4,6 @@ const nodemailer = require('nodemailer');
 const app = express();
 require('dotenv').config();
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
@@ -39,6 +38,7 @@ app.post('/api/form', (req, res) => {
             if(err){
                 return console.log(err);
             }
+
 
             console.log('Message sent: %s', info.message);
             console.log('Message URL: %s', nodemailer.getTestMessageUrl(info));
