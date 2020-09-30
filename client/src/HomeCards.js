@@ -8,6 +8,7 @@ function HomeCards() {
     return (
         <div className="HomeCards-container">
             <h3 className="panel-header">&#8213;   Our Process   &#8213;</h3>
+            <br />
             <div className="HomeCards">
                 <div className="card">
                     <div className="card-img-container">

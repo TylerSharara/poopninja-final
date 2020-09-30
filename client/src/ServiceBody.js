@@ -34,9 +34,7 @@ function ServiceBody() {
                         for families and pets to enjoy, but we work to improve the local environment as well.
                     </p>
                 </div>
-                <div className="service-btn-container">
-                    <Link to={"/contact"} className="btn btn-primary btn-lg jumbo-btn service-btn">Request Free Quote</Link>
-                </div>
+                <h2 className="service-header">Weekly Services as Low as <span className="accent">$9.99</span></h2>
             </div>
             <br/>
             <div className="service">

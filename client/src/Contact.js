@@ -9,7 +9,8 @@ const initialState = {
     email: '',
     phone: '',
     name2: '',
-    errMsg: ''
+    errMsg: '',
+    status: ''
 };
 
 export default class Contact extends Component {
@@ -51,12 +52,16 @@ export default class Contact extends Component {
         const isValid = this.validate();
 
         if (!isValid) {
+            alert("Oh no! It looks like we've got an error. Please try again or contact us via phone/email!");
             e.preventDefault();
         }
 
         const {name, email, phone} = this.state;
 
         if(isValid && !this.state.name2) {
+            let status = true;
+            this.setState({status});
+            alert("Thank you! we will get back to you ASAP!");
             const form = await axios.post('/api/form', {
                 name,
                 email,

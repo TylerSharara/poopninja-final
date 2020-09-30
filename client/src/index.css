@@ -247,7 +247,7 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 30%;
   height: 70vh;
   border: 2px solid #333;
@@ -297,7 +297,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 60%;
 }
 
 .service-content h1{
@@ -387,6 +387,11 @@ a:hover {
 .goodMsg {
   color: white;
   font-size: 24px;
+}
+
+.alert-success {
+  width: 80%;
+  margin: auto;
 }
 
 .sneaky{
