@@ -1,7 +1,7 @@
 import React from "react";
 import residential from "./media/residential.jpg";
 import common from "./media/common-area.jpg";
-import partydog from "./media/party-dog.jpg";
+import spring from "./media/spring-grass.jpg";
 import {Link} from "react-router-dom";
 
 function ServiceBody() {
@@ -38,7 +38,7 @@ function ServiceBody() {
             </div>
             <br/>
             <div className="service">
-                <img className="service-img" src={partydog} alt={"Two dogs with party hats, smiling dogs"}/>
+                <img className="service-img" src={spring} alt={"Spring grass, Spring Cleaning"}/>git v
                 <div className="overlay"></div>
                 <h1 className="service-title">Spring Clean-Ups</h1>
                 <div className="service-content">

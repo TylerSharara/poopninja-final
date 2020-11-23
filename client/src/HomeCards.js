@@ -12,7 +12,7 @@ function HomeCards() {
             <div className="HomeCards">
                 <div className="card">
                     <div className="card-img-container">
-                        <img className="card-img-top" src={clock} alt={"clock, Schedule"}/>
+                        <img className="card-img-top" src={clock} alt={"Schedule, Clock"}/>
                     </div>
                         <div className="card-body">
                             <h5 className="card-title">Pencil Us In</h5>
@@ -22,7 +22,7 @@ function HomeCards() {
                 </div>
                 <div className="card">
                     <div className="card-img-container">
-                        <img className="card-img-top" src={garbage} alt={"garbage, waste removal, clean up"}/>
+                        <img className="card-img-top" src={garbage} alt={"waste removal, dog poop clean up"}/>
                     </div>
                     <div className="card-body">
                         <h5 className="card-title">We Scoop</h5>
