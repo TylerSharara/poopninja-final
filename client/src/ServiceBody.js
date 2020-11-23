@@ -15,7 +15,7 @@ function ServiceBody() {
                     <h1 className="service-header">A clean yard every time – guaranteed.</h1>
                     <p className="service-para">
                         Love your dog but hate the mess? With <span className="accent">PoopNinja</span> Pet Waste Removal Service, you never have to worry about the whole “clean up” business.
-                        <span className="accent"> We offer weekly, bi-weekly and monthly scooping services, as well as one-time clean ups</span> to keep your yard clean and safe year-round.
+                        <span className="accent"> We offer weekly, bi-weekly and monthly scooping services</span> to keep your yard clean and safe year-round.
                         All you have to do is schedule, relax and enjoy.
                     </p>
                 </div>
@@ -38,7 +38,7 @@ function ServiceBody() {
             </div>
             <br/>
             <div className="service">
-                <img className="service-img" src={spring} alt={"Spring grass, Spring Cleaning"}/>git v
+                <img className="service-img" src={spring} alt={"Spring grass, Spring Cleaning"}/>
                 <div className="overlay"></div>
                 <h1 className="service-title">Spring Clean-Ups</h1>
                 <div className="service-content">
