@@ -1,5 +1,5 @@
 import React from 'react';
-import family from "./media/family-dog.jpg";
+import family from "./media/family-dog.webp";
 import SlantUpper from "./SlantUpper";
 import SlantLower from "./SlantLower";
 

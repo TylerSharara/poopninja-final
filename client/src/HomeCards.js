@@ -1,7 +1,7 @@
 import React from 'react';
-import clock from "./media/clock.jpg";
-import happyDog from "./media/happydog.jpg";
-import garbage from "./media/garbage2.jpg";
+import clock from "./media/clock.webp";
+import happyDog from "./media/happy-dog.webp";
+import garbage from "./media/garbage.webp";
 import {Link} from "react-router-dom";
 
 function HomeCards() {

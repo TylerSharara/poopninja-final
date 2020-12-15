@@ -1,5 +1,5 @@
 import React from 'react';
-import grass from './media/grass.jpg';
+import grass from './media/grass.webp';
 import {Link} from "react-router-dom";
 
 function HomeJumbo() {

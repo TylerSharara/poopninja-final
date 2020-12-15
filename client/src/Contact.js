@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import grass from "./media/grass.jpg";
+import grass from "./media/grass.webp";
 import Panel from "./Panel";
 import validator from 'validator';
 import axios from 'axios';

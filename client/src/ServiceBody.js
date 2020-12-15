@@ -1,7 +1,7 @@
 import React from "react";
-import residential from "./media/residential.jpg";
-import common from "./media/common-area.jpg";
-import spring from "./media/spring-grass.jpg";
+import residential from "./media/residential.webp";
+import common from "./media/common-area.webp";
+import spring from "./media/spring.webp";
 import {Link} from "react-router-dom";
 
 function ServiceBody() {
