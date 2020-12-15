@@ -16,7 +16,7 @@ function HomeCards() {
                     </div>
                         <div className="card-body">
                             <h5 className="card-title">Pencil Us In</h5>
-                            <p className="card-text">Tell us when and where. We'll take things from there!</p>
+                            <p className="card-text">Lets us know when and where. We'll take care of everything else from there!</p>
                             <Link to={"/services"} className="btn btn-primary card-btn">Learn More</Link>
                         </div>
                 </div>
@@ -36,7 +36,7 @@ function HomeCards() {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title">You Enjoy</h5>
-                        <p className="card-text">Spend your time doing stuff you love, like enjoying your clean yard with the whole family.</p>
+                        <p className="card-text">Spend time doing stuff you love, like enjoying your clean yard with the whole family.</p>
                         <Link to={"/services"} className="btn btn-primary card-btn">Learn More</Link>
                     </div>
                 </div>
